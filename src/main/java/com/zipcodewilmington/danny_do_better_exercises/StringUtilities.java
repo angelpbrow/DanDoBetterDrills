@@ -57,7 +57,7 @@ public class StringUtilities {
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
      //return inputValue.compareTo(comparableValue);
-        return null;
+        return inputValue.equals(comparableValue);
     }
 
     /**
