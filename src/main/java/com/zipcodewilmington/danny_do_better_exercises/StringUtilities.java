@@ -38,7 +38,7 @@ public class StringUtilities {
      */
     public static String getPrefix(String input){
 
-        return input.substring(0,2);
+        return input.substring(0,3);
     }
 
     /**
@@ -65,7 +65,7 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
-        return inputValue.charAt(inputValue.length() /2);
+        return inputValue.charAt(inputValue.length() / 2);
         //return null;
     }
 
@@ -94,6 +94,6 @@ public class StringUtilities {
      */
     public static String reverse(String stringToReverse){
         //StringBuilder
-        //return null;
+        return null;
     }
 }
