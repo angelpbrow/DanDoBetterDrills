@@ -89,7 +89,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Long subtract(long baseValue, long difference) {
-        return baseValue + difference;
+        return baseValue - difference;
         //return null;
     }
 
@@ -150,7 +150,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Long divide(long dividend, long divisor) {
-        return dividend - divisor;
+        return dividend / divisor;
         //return null;
     }
 
@@ -211,7 +211,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Long multiply(long multiplicand, long multiplier) {
-        return multiplier * multiplier;
+        return multiplicand * multiplier;
         //return null;
     }
 
